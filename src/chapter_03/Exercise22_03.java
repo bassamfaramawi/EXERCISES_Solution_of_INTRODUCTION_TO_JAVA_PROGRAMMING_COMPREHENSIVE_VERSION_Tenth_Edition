@@ -29,7 +29,7 @@ public class Exercise22_03 {
         // Calculate distance from (0, 0)
         double distance = Math.pow(x * x + y * y, 0.5);
         
-        // ccheck if in circle and display the result
+        // Check if in circle and display the result
         System.out.print("Point (" + x + ", " + y + ") is " + 
                 (distance <= RADIUS ? "" : "not ") + "in the circle");
     }

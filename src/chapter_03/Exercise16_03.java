@@ -12,9 +12,11 @@ package chapter_03;
 public class Exercise16_03 {
 
     public static void main(String[] args) {
+        // Generate random coordinates inside the rectangle
         int randomX = (int)(Math.random() * 100 - 50),
                 randomY = (int)(Math.random() * 200 - 100);
         
+        //display the result
         System.out.print("The random point coordinate is (" + randomX + ", " + 
                 randomY + ")");
     }

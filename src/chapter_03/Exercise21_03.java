@@ -38,7 +38,7 @@ public class Exercise21_03 {
         System.out.print("Enter month: 1-12: ");
         int m = input.nextInt();
         // Convert input from 1 to 13 and from 2 to 14
-        switch(m) {case 1: m = 13; break;  case 2: m = 14;}
+        switch(m) {case 1: m = 13; --year; break;  case 2: m = 14; --year;}
         
         // Asking for entering day of the m
         System.out.print("Enter the day of the month: 1-31: ");
@@ -51,7 +51,7 @@ public class Exercise21_03 {
         // Calculate day of the week
         int h = (q + 26 * (m + 1) / 10 + k + k / 4 + j / 4 + 5 * j) % 7;
         
-        // Diplay the result
+        // Display the result
         System.out.print("Day of the week is ");
         
         switch(h) {

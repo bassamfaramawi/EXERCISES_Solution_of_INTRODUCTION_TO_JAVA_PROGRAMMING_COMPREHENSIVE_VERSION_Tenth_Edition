@@ -24,10 +24,10 @@ public class Exercise19_03 {
                 edge2 = input.nextDouble(),
                 edge3 = input.nextDouble();
         
-        // Check if the input is valid and diplay the result
+        // Check if the input is valid and display the result
         if((edge1 + edge2) > edge3 && (edge2 + edge3) > edge1 && 
                 (edge1 + edge3) > edge2) 
-            System.out.print("Perimter = " + (edge1 + edge2 + edge3));
+            System.out.print("Perimeter = " + (edge1 + edge2 + edge3));
         else 
             System.out.print("The input is invalid.");
     }

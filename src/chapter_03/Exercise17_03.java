@@ -24,7 +24,7 @@ public class Exercise17_03 {
         //Prompt the user to enter to enter a number 0, 1, or 2
         System.out.print("scissor (0), rock (1), paper (2): ");
         
-        int guess = input.nextInt();  // Recieve the value
+        int guess = input.nextInt();  // Receive the value
         
         String guessName ="",
                 computerName = " ";    // Initialize guess and computer names
@@ -50,7 +50,7 @@ public class Exercise17_03 {
         // Check won or draw or lose and display the result
         if(guess == computer)
             System.out.print("The computer is " + computerName + ". You are " + 
-                    guessName +" too. It is a draw");
+                    guessName + " too. It is a draw");
         else if((computer == 0 && guess == 2) ||
                 (computer == 1 && guess == 0) ||
                 (computer == 2 && guess == 1) )

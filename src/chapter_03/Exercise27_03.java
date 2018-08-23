@@ -16,10 +16,10 @@ import java.util.Scanner; // import the scanner class
 public class Exercise27_03 {
 
     public static void main(String[] args) {
-        /* As a way to detemine if a point is inside the triangle is to detect 
+        /* As a way to determine if a point is inside the triangle is to detect 
         if the line connecting the point with the any angle point (the upper 
         angle point (0, 100) for example) is intersecting with the facing side 
-        of the triangle (horizental line in this example) at a point between the 
+        of the triangle (horizontal line in this example) at a point between the 
         other tow angle points ((0, 0) and (200, 0) in this example) then the 
         point is inside the triangle, otherwise it is outside the triangle.
         so here x1 = 0, y1 = 100, x2 = user input, y2 = user input, x3 = 0, 
@@ -48,7 +48,7 @@ public class Exercise27_03 {
                 f = (y3 - y4) * x3 - (x3 - x4) * y3,
                 x, y;
         
-        // If parallel lines then the point is outside the tiangle
+        // If parallel lines then the point is outside the triangle
         if((a * d - b * c) == 0) {
             System.out.print("The point is not in the triangle");
             System.exit(0);
@@ -58,9 +58,10 @@ public class Exercise27_03 {
         x = (e * d - b * f) / (a * d - b * c);
         y = (a * f - e * c) / (a * d - b * c);
             
-        // If intersecting point is between other tow angle points, it's ok
+        // If intersecting point is between other tow angle points, it's OK
         if(x >= 0 && x <= 200)
             System.out.print("The point is in the triangle");
+        
         //Otherwise it is not in the triangle
         else
             System.out.print("The point is not in the triangle");

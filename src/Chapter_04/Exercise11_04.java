@@ -22,6 +22,7 @@ public class Exercise11_04 {
         
         if(decimal > 15 || decimal < 0)  // If the input isn't in (0 - 15) range
             System.out.print(decimal + " is an invalid input");
+        
         else { // Otherwise display the hex value
             // Display the result
             System.out.print("The hex value is " );

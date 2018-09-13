@@ -3,7 +3,7 @@
 characters and displays the major and status represented in the characters. The first
 character indicates the major and the second is number character 1, 2, 3, 4, which
 indicates whether a student is a freshman, sophomore, junior, or senior. Suppose
-the following chracters are used to denote the majors:
+the following characters are used to denote the majors:
 M: Mathematics
 C: Computer Science
 I: Information Technology
@@ -33,7 +33,7 @@ public class Exercise18_04 {
         // If invalid input
         if(major != 'M' &&  major != 'C' &&  major != 'I' ||  
                 (status != '1' &&  status != '2' &&  status != '3' && status != '4'))
-            System.out.append("Invalid input");
+            System.out.print("Invalid input");
         
         // Otherwise display the major and status
         else {

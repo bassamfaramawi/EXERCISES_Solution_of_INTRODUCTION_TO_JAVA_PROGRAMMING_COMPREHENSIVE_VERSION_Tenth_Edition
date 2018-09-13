@@ -13,7 +13,7 @@ import java.util.Scanner;  // Create a Scanner object
 public class Exercise22_04 {
 
     public static void main(String[] args) {
-         Scanner input = new Scanner(System.in);  //Create Scanner object
+        Scanner input = new Scanner(System.in);  //Create Scanner object
         
         //Prompt the user to enter string s1
         System.out.print("Enter string s1: ");
@@ -26,7 +26,8 @@ public class Exercise22_04 {
         String s2 = input.nextLine();
         
         // Display the result
-        System.out.print(s2 + " is " + (s1.contains(s2) ? "a" : "not a") + " substring of " + s1);
+        System.out.print(s2 + " is " + (s1.contains(s2) ? "a" : "not a") + 
+                " substring of " + s1);
     }
     
 }

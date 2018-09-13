@@ -20,7 +20,7 @@ public class Exercise24_04 {
         String city1 = input.nextLine();
         
         // Prompt the user to enter the seconed city
-        System.out.print("Enter the seconed city: ");
+        System.out.print("Enter the second city: ");
         String city2 = input.nextLine();
         
         // Prompt the user to enter the third city

@@ -51,7 +51,7 @@ public class Exercise31_03 {
                              (int)(dollars * 100) / 100.0);
                      break;
                      
-            // Otherwise is an Incorrect input
+            // Otherwise is an incorrect input
             default : System.out.print("Incorrect input");      
         }
     }

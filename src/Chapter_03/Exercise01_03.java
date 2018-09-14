@@ -1,5 +1,5 @@
-/*
- * *3.1 (Algebra: solve quadratic equations) The two roots of a quadratic equation
+﻿/*
+ *3.1 (Algebra: solve quadratic equations) The two roots of a quadratic equation
          ax2 + bx + c = 0 can be obtained using the following formula:
                 r1 = (-b + (b**2 - 4ac)**0.5) / 2a
             and r2 = (-b + (b**2 - 4ac)**0.5) / 2a
@@ -10,7 +10,7 @@ Write a program that prompts the user to enter values for a, b, and c and displa
 the result based on the discriminant. If the discriminant is positive, display two
 roots. If the discriminant is 0, display one root. Otherwise, display “The equation
 has no real roots”.
-Note that you can use Math.pow(x, 0.5) to compute 2x
+Note that you can use Math.pow(x, 0.5) to compute 2x.
  */
 package Chapter_03;
 

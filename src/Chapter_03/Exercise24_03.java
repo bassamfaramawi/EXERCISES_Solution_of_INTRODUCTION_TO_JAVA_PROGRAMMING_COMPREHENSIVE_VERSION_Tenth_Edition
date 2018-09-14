@@ -22,7 +22,7 @@ public class Exercise24_03 {
         String rankName = "",
                 suitName =  "";
         
-        // Assign rank Name based on rank number generated
+        // Assign rank name based on rank number generated
         switch(rank) {
             case 1: rankName = "Ace"; break;
             case 2: rankName = "2"; break;

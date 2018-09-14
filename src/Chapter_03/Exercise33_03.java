@@ -18,13 +18,13 @@ public class Exercise33_03 {
         // Create a scanner object
         Scanner input = new Scanner(System.in);
         
-        // Asking to enter weight and price for package 1:
+        // Asking to enter weight and price for package 1
         System.out.print("Enter weight and price for package 1: ");
         double weight1 = input.nextDouble(),
                 price1 = input.nextDouble(),
                 priceOfKg1 = price1 / weight1;
         
-        // Asking to enter weight and price for package 2:
+        // Asking to enter weight and price for package 2
         System.out.print("Enter weight and price for package 2: ");
         double weight2 = input.nextDouble(),
                 price2 = input.nextDouble(),

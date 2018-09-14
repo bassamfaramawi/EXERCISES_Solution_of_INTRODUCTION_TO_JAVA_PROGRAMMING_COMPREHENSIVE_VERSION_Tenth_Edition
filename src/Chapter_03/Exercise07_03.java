@@ -49,7 +49,7 @@ public class Exercise07_03 {
                     ? " quarters" : " quarter"));
         if(numberOfDimes > 0)
             System.out.println(" " + numberOfDimes + ((numberOfDimes > 1) 
-                    ? " dimes" : " dimes"));
+                    ? " dimes" : " dime"));
         if(numberOfNickels > 0)
             System.out.println(" " + numberOfNickels + ((numberOfNickels > 1) 
                     ? " nickels" : " nickel"));

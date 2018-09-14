@@ -1,4 +1,4 @@
-/*
+﻿/*
  *3.5 (Find future dates) Write a program that prompts the user to enter an 
 integer fo today’s day of the week (Sunday is 0, Monday is 1, …, and Saturday 
 is 6). Also prompt the user to enter the number of days after today for a future 
@@ -28,19 +28,19 @@ public class Exercise05_03 {
             int elapsed = input.nextInt();
             
             switch(today)  {
-                case 1: System.out.print("Today is Sunday");
+                case 0: System.out.print("Today is Sunday");
                         break;
-                case 2: System.out.print("Today is Monday");
+                case 1: System.out.print("Today is Monday");
                         break;
-                case 3: System.out.print("Today is Tuesday");
+                case 2: System.out.print("Today is Tuesday");
                         break;
-                case 4: System.out.print("Today is Wednesday");
+                case 3: System.out.print("Today is Wednesday");
                         break;
-                case 5: System.out.print("Today is Thursday");
+                case 4: System.out.print("Today is Thursday");
                         break;
-                case 6: System.out.print("Today is Friday");
+                case 5: System.out.print("Today is Friday");
                         break;
-                case 7: System.out.print("Today is Saturday");
+                case 6: System.out.print("Today is Saturday");
                         break;
             }
         
@@ -48,19 +48,19 @@ public class Exercise05_03 {
             //Compute the future day
             int future = (today + elapsed) % 7;
             switch(future)  {
-                case 1: System.out.print(" and the future day is Sunday");
+                case 0: System.out.print(" and the future day is Sunday");
                         break;
-                case 2: System.out.print(" and the future day is Monday");
+                case 1: System.out.print(" and the future day is Monday");
                         break;
-                case 3: System.out.print(" and the future day is Tuesday");
+                case 2: System.out.print(" and the future day is Tuesday");
                         break;
-                case 4: System.out.print(" and the future day is Wednesday");
+                case 3: System.out.print(" and the future day is Wednesday");
                         break;
-                case 5: System.out.print(" and the future day is Thursday");
+                case 4: System.out.print(" and the future day is Thursday");
                         break;
-                case 6: System.out.print(" and the future day is Friday");
+                case 5: System.out.print(" and the future day is Friday");
                         break;
-                case 7: System.out.print(" and the future day is Saturday");
+                case 6: System.out.print(" and the future day is Saturday");
                         break;
             }
         }

@@ -37,7 +37,7 @@ public class Exercise02_04 {
         double x2 = input.nextDouble(),
                 y2 = input.nextDouble();
         
-        // Convert the degrees ino toRadians
+        // Convert the degrees into radians
         x1 = Math.toRadians(x1);
         y1 = Math.toRadians(y1);
         x2 = Math.toRadians(x2);

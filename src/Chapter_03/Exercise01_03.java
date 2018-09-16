@@ -1,4 +1,4 @@
-﻿/*
+/*
  *3.1 (Algebra: solve quadratic equations) The two roots of a quadratic equation
          ax2 + bx + c = 0 can be obtained using the following formula:
                 r1 = (-b + (b**2 - 4ac)**0.5) / 2a

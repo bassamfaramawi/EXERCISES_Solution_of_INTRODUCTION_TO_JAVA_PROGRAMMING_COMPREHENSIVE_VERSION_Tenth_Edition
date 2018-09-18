@@ -16,7 +16,7 @@ import java.util.Scanner; // Import the Scanner class
 public class Exercise01_05 {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);;  //Create Scanner object
+        Scanner input = new Scanner(System.in);  //Create Scanner object
         //Prompt the user to enter integers
         System.out.print("Enter an integer, the input ends if it is 0: ");
         

@@ -22,7 +22,7 @@ public class Exercise17_05 {
         for(int n = 1; n <= number; n++) { // A for loop for printing the table
             for(int k = -number; k <= number; k++) 
                 System.out.print((Math.abs(k) > n ? "  " :
-                        (k == 0 || k == 1 ? "" : Math.abs(k) +" ")));
+                        (k == 0 || k == 1 ? "" : Math.abs(k) + " ")));
             
             System.out.println();
         }

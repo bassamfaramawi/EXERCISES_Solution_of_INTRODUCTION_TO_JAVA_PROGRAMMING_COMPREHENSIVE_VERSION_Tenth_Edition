@@ -1,12 +1,17 @@
 /*
- **5.28 (Display the first days of each month) Write a program that prompts the 
-user to enter the year and first day of the year, and displays the first day of 
-each month in the year. For example, if the user entered the year 2013, and 2 for 
-Tuesday, January 1, 2013, your program should display the following output:
+ **5.29 (Display calendars) Write a program that prompts the user to enter the year and
+first day of the year and displays the calendar table for the year on the console. For
+example, if the user entered the year 2013, and 2 for Tuesday, January 1, 2013,
+your program should display the calendar for each month in the year, as follows:
 
-     January 1, 2013 is Tuesday
-     ...
-     December 1, 2013 is Sunday
+                       January 2013
+          _________________________________________
+          Sun    Mon   Tue   Wed   Thu    Fri   Sat
+                 1     2     3     4      5  
+          6      7     8     9     10     11    12
+          13     14    15    16    17     18    19
+          20     21    22    23    24     25    26
+          27     28    29    30    31
  */
 package Chapter_05;
 
@@ -16,7 +21,7 @@ import java.util.Scanner; // Import the Scanner class
  *
  * @author BASSAM FARAMAWI / tiodaronzi3@yahoo.com
  */
-public class Exercise28_05 {
+public class Exercise29_05 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);  //Create Scanner object
@@ -29,7 +34,6 @@ public class Exercise28_05 {
                 + " .. , 6 for Saturday): ");
         int firstDay = input.nextInt();
         
-        String dayOfWeek = "";  // Initialize day of week name
         String monthName = "";  // Initialize month name
         int monthDays = 0;  // Initialize the number of month days
         
@@ -43,8 +47,8 @@ public class Exercise28_05 {
                 case 2: monthName = "February";
                         monthDays = (year % 400 == 0 
                                 || (year % 4 == 0 
-                                && year % 100 != 0) ? 
-                                29 : 28);
+                                && year % 100 != 0) 
+                                ? 29 : 28);
                         break;
                 case 3: monthName = "March";
                         monthDays = 31;
@@ -77,28 +81,22 @@ public class Exercise28_05 {
                         monthDays = 30;
             }
             
-            switch(firstDay) {
-                case 0: dayOfWeek = "Sunday";
-                        break;
-                case 1: dayOfWeek = "Monday";
-                        break;
-                case 2: dayOfWeek = "Tuesday";
-                        break;
-                case 3: dayOfWeek = "Wednesday";
-                        break;
-                case 4: dayOfWeek = "Thursday";
-                        break;
-                case 5: dayOfWeek = "Friday";
-                        break;
-                case 6: dayOfWeek = "Saturday";
-            }
+            // Print the header
+            System.out.printf("\n\n\n                 " + monthName + " " + year 
+                    + "\n____________________________________________________\n"
+                    + "%-8s%-8s%-8s%-8s%-8s%-8s%-8s\n", "Sun", "Mon", "Tue", "Wed",
+                    "Thu", "Fri", "Sat");
             
-            System.out.println("   " + monthName + " 1, " + year + " is " 
-                    + dayOfWeek);
+            for(int i = 0; i < firstDay; i++)
+                System.out.printf("%8s", "");
             
-            // Shift to firsst day of next month
+            // Print the body of the month
+            for(int i = 1; i <= monthDays; i++)
+                System.out.printf("%-8d"+ ((i + firstDay) % 7 == 0 ? "\n": ""), i);
+            
+            // Shift to the first day of the next month
             firstDay = (firstDay + monthDays) % 7; 
-        }
+        }   
     }
     
 }

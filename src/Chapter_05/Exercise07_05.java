@@ -15,7 +15,7 @@ public class Exercise07_05 {
     public static void main(String[] args) {
         final int NUMBER_OF_YEARS = 14;  // 10 Years + 4 years after it
         double tuition = 10_000;   // initialize tuition
-        double increaseRate = 0.05;   // Every year incremint
+        double increaseRate = 0.05;   // Every year increment
         
         for(int n = 1; n <= NUMBER_OF_YEARS; n++) {
             tuition *= (1 + increaseRate);

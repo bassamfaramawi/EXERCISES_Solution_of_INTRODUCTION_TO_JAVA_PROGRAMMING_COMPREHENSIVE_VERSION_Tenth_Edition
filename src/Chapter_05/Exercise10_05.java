@@ -18,7 +18,7 @@ public class Exercise10_05 {
         int count = 0;  // The count of numbers divisible by 5 & 6
         
         System.out.println("The numbers divisible by 5 & 6 from " + START_NUMBER 
-                + " to " + END_NUMBER + " is:");
+                + " to " + END_NUMBER + " are:");
         
         for(int n = START_NUMBER; n <= END_NUMBER; n++)
             if(n % 5 == 0 && n % 6 == 0) {

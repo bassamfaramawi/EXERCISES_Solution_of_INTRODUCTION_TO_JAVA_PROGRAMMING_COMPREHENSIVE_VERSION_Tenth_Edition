@@ -12,7 +12,7 @@ public class Exercise13_05 {
 
     public static void main(String[] args) {
         int number = 0;  // Start from number 0
-        int lastNumber = 0; // The number previous of currunt number
+        int lastNumber = 0; // The number previous of current number
         
         while((number * number * number) < 12000) {
             lastNumber = number;

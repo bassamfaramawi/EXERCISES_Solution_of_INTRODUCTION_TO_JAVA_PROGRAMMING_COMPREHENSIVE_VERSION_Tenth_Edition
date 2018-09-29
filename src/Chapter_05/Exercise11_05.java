@@ -17,7 +17,7 @@ public class Exercise11_05 {
         int endNumber = 200; // To the number
         
         System.out.println("The numbers divisible by 5 or 6, but not both from " 
-                + startNumber + " to " + endNumber + " is:");
+                + startNumber + " to " + endNumber + " are:");
         
         for(int n = startNumber; n <= endNumber; n++)
             if(n % 5 == 0 ^ n % 6 == 0) 

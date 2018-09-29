@@ -18,10 +18,10 @@ public class Exercise15_05 {
         
         System.out.println("The ASCII table from ! to ~:");
         
-        for(int n = startASCII; n <= endASCII; n++)  {
+        for(int n = startASCII; n <= endASCII; n++)  
             // Display the result
             System.out.print((char)n + ((n - startASCII + 1) % NUMBERS_PER_LINE == 0 ? "\n" : " "));
-        }
+        
     }
     
 }

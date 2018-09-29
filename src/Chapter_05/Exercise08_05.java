@@ -22,7 +22,7 @@ public class Exercise08_05 {
         String highestName = "";  // Initialize the name of the highest score student 
         double highestScore = 0;  // Initialize it's score
         
-        for(int n = 1; n <=studentsNumber; n++) { // Loop for students scores
+        for(int n = 1; n <= studentsNumber; n++) { // Loop for students scores
             System.out.print("Enter the name of student no." + n + ": ");
             String studentName = input.next();
             System.out.print("Enter the student score: ");

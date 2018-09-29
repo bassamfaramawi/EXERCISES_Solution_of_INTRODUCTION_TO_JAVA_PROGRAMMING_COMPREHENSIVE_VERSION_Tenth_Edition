@@ -20,9 +20,9 @@ public class Exercise16_05 {
         
         int number = input.nextInt();
         
-        int n = 1;  // Strat count from after 1
+        int n = 1;  // Start count from after 1
         
-        System.out.print("The smallest factors for " + number + " is: ");
+        System.out.print("The smallest factors for " + number + " are: ");
         
         while (n < number) {
             n++;

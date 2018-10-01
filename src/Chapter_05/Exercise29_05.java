@@ -1,8 +1,9 @@
 /*
- **5.29 (Display calendars) Write a program that prompts the user to enter the year and
-first day of the year and displays the calendar table for the year on the console. For
-example, if the user entered the year 2013, and 2 for Tuesday, January 1, 2013,
-your program should display the calendar for each month in the year, as follows:
+ **5.29 (Display calendars) Write a program that prompts the user to enter the 
+ year and first day of the year and displays the calendar table for the year on 
+ the console. For example, if the user entered the year 2013, and 2 for Tuesday, 
+ January 1, 2013, your program should display the calendar for each month in the 
+ year, as follows:
 
                        January 2013
           _________________________________________
@@ -37,11 +38,9 @@ public class Exercise29_05 {
         String monthName = "";  // Initialize month name
         int monthDays = 0;  // Initialize the number of month days
         
-        System.out.println("Year months first days:");
-        
         for(int n = 1; n <= 12; n++) {
             switch(n)  {
-                case 1: monthName = "Janeury";
+                case 1: monthName = "January";
                         monthDays = 31;
                         break;
                 case 2: monthName = "February";

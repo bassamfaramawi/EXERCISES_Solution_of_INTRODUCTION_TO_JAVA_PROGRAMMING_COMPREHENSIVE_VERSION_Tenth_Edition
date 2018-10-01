@@ -41,7 +41,7 @@ public class Exercise22_05 {
                 // The total payment
                 totalPayment = monthlyPayment * numberOfYears * 12; 
         
-        // Displaythe monthly payment and the total payment
+        // Display the monthly payment and the total payment
         System.out.printf("Monthly Payment: %.2f\nTotal Payment: %.2f\n", 
                 monthlyPayment, totalPayment);
         
@@ -59,7 +59,7 @@ public class Exercise22_05 {
             principal = monthlyPayment - interest;
             balance = balance - principal;
             
-            // Dispplay the results
+            // Display the results
             System.out.printf("%15d%15.2f%15.2f%15.2f\n", n, interest, principal, 
                     balance);
         }

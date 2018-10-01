@@ -12,7 +12,7 @@ package Chapter_05;
 public class Exercise20_05 {
 
     public static void main(String[] args) {
-        final int NUMBER_OF_PRIMES_PER_LINE = 8; // Display 10 per line
+        final int NUMBER_OF_PRIMES_PER_LINE = 8; // Display 8 per line
         int count = 0; // Count the number of prime numbers
         int number = 2; // A number to be tested for primeness
         

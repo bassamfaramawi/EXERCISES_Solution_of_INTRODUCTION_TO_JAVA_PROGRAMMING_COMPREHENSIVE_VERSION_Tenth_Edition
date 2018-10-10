@@ -29,20 +29,21 @@ public class Exercise51_05 {
         
         String longestCommonPrefix = "";  // Initialize the longest common prefix
         
-        for(int i = 0; i < s1.length() - 1; i++)
-            for(int n = 0; n < s2.length() - 1; n++)
-                if(s1.charAt(i) == s2.charAt(n) && s1.charAt(i + 1) == s2.charAt(n + 1)){
-                    do {
-                        s += s1.charAt(i);
-                        if(i == s1.length() -1 || n == s2.length() )
-                            break;
+        for(int n = 0; n < s1.length(); n++) {
+            for(int i = 0; i < s2.length(); i++) {
+                s = "";
+                while(s1.charAt(n) == s2.charAt(i)){
+                    s += s2.charAt(i);
+                    if(n < s1.length() - 1 && i < s2.length() - 1) {
                         n++;
                         i++;
-                    } while(s1.charAt(i) == s2.charAt(n));
-                    
-                    if(s.compareTo(longestCommonPrefix) > 0)
-                        longestCommonPrefix = s;
+                    }
+                    else break;
                 }
+                if(longestCommonPrefix.length() < s.length()) 
+                    longestCommonPrefix = s;
+            }   
+        }
         
         // If no common prefix between them
         if(longestCommonPrefix.length() == 0)

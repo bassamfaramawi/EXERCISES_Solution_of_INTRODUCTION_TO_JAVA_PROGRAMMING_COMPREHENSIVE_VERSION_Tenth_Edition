@@ -29,7 +29,7 @@ public class Exercise39_05 {
         double commissionPerMonth = commissionPerYear / 12; 
         
         double salesAmount = 0.01,  // Initialize the sales amount
-                commission = 0;  // Initialize the commision needed
+                commission = 0;  // Initialize the commission needed
         
         while(commission < commissionPerMonth) {
             salesAmount += 0.01;

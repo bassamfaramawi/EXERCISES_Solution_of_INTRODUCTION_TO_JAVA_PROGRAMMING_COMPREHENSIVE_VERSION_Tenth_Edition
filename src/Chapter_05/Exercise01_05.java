@@ -27,7 +27,7 @@ public class Exercise01_05 {
         
         double total = 0;  // Initialize total
         
-        // Recive integers until the input 0
+        // Receive integers until the input 0
         while(number != 0) {
             n++;
             if(number > 0) positives++; else negatives++;
@@ -38,7 +38,7 @@ public class Exercise01_05 {
         if(n == 0)  // If no entered but zero
             System.out.print("No numbers are entered except 0");
         
-        else  // Otherwise dispay the result
+        else  // Otherwise display the result
             System.out.print("The number of positives is " + positives + 
                     "\nThe number of negatives is " + negatives + 
                     "\nThe total is " + total +

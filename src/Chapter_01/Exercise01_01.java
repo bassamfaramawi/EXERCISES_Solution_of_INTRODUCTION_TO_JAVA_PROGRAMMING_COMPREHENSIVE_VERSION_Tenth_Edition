@@ -14,7 +14,7 @@ public class Exercise01_01 {
     public static void main(String[] args) {
         
         //Print three messages
-        System.out.print("Welcome to Java\nWelcome to Computer Science\n"
+        System.out.println("Welcome to Java\nWelcome to Computer Science\n"
                 + "Welcome to fun");
     }
     

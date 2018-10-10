@@ -37,7 +37,7 @@ public class Exercise28_05 {
         
         for(int n = 1; n <= 12; n++) {
             switch(n)  {
-                case 1: monthName = "Janeury";
+                case 1: monthName = "January";
                         monthDays = 31;
                         break;
                 case 2: monthName = "February";
@@ -96,7 +96,7 @@ public class Exercise28_05 {
             System.out.println("   " + monthName + " 1, " + year + " is " 
                     + dayOfWeek);
             
-            // Shift to firsst day of next month
+            // Shift to first day of next month
             firstDay = (firstDay + monthDays) % 7; 
         }
     }

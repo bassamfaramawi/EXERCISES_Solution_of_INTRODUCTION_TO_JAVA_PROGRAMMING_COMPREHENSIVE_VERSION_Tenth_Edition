@@ -20,17 +20,16 @@ package Chapter_05;
 public class Exercise23_05 {
 
     public static void main(String[] args) {
-        
         int n = 50000;  // The series count
         double sum  = 0;  // Initialize the summation
         
-        // Display the summmation from left to right
+        // Display the summation from left to right
         System.out.print("The summation of a series with n = 50000 from left to right: ");
         for(int i = 1; i <= n; i++)
             sum += (1.0 / i);
         System.out.println(sum);
         
-         // Display the summmation from right to left
+        // Display the summation from right to left
         System.out.print("The summation of a series with n = 50000 from right to left: ");
         for(int i = n; i > 0; i--)
             sum += (1.0 / i);

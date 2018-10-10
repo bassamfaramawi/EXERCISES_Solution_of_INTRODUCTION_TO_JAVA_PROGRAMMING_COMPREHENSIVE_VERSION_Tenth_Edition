@@ -37,7 +37,7 @@ public class Exercise21_05 {
         System.out.printf("%17s%17s%17s\n" ,"Interest Rate", "Monthly Payment", 
                 "Total Payment");
         
-       for(int n = 0; n <= count; n++) {  // Loop for printing the table body
+        for(int n = 0; n <= count; n++) {  // Loop for printing the table body
            annualInterestRate = interestRate + n * increment;
            monthlyInterestRate = annualInterestRate / 1200;
            monthlyPayment = loanAmount * monthlyInterestRate / (1 - 1 / 
@@ -47,7 +47,7 @@ public class Exercise21_05 {
            // Display the result
            System.out.printf("%17.3f%17.2f%17.2f\n", annualInterestRate, 
                    monthlyPayment, totalPayment);
-       }
+        }
         
     }
     

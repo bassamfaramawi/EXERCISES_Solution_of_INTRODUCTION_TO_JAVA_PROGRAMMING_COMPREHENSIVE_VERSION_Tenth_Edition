@@ -1,6 +1,6 @@
 /*
- *5.31 (Financial application: compute CD value) Suppose you put $10,000 into a CD
-with an annual percentage yield of 5.75%. After one month, the CD is worth
+ *5.31 (Financial application: compute CD value) Suppose you put $10,000 into a 
+CD with an annual percentage yield of 5.75%. After one month, the CD is worth
 10000 + 10000 * 5.75 / 1200 = 10047.92
 After two months, the CD is worth
 10047.91 + 10047.91 * 5.75 / 1200 = 10096.06
@@ -35,17 +35,16 @@ public class Exercise31_05 {
         System.out.print("Enter maturity period (number of months): ");
         int numberOfMonths = input.nextInt();
         
-        double CDValue = 0;  // Initialize monthly amount
+        double CDValue = amount;  // Initialize monthly amount
         
         // Print the header
         System.out.printf("\n%-8s%-8s\n","Month", "CD Value");
         
         // Print the table body
         for(int n = 1; n <= numberOfMonths; n++)  {
-            CDValue = (CDValue + amount) * (1 + annualPercentageYield / 1200);
+            CDValue *= (1 + annualPercentageYield / 1200);
             System.out.printf("%-8d%-8.2f\n", n, CDValue);
         }
-        
     }
     
 }

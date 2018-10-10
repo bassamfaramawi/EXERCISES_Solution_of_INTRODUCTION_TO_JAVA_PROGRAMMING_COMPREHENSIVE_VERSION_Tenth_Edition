@@ -16,7 +16,6 @@ package Chapter_05;
 public class Exercise26_05 {
 
    public static void main(String[] args) {
-        
        double e = 1.0,
                item  = 1.0;
         for(int i = 2; i <= 100000; i++) {

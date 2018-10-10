@@ -16,7 +16,7 @@ public class Exercise24_05 {
         int n = 97;  // The series count
         double sum  = 0;  // Initialize the summation
         
-        // Display the summmation
+        // Display the summation
         System.out.print("The summation of the series 1/3 + ... + 97/99 is: ");
         for(int i = 1; i <= n; i += 2)
             sum += (i * 1.0 / (i + 2));

@@ -16,7 +16,7 @@ public class Exercise44_05 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);  //Create Scanner object
         
-        // Prompt the user to enter a sjort value
+        // Prompt the user to enter a short value
         System.out.print("Enter a short number: ");
         
         short number = input.nextShort();

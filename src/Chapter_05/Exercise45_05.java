@@ -49,8 +49,6 @@ public class Exercise45_05 {
         System.out.println("The mean is " + mean);
         System.out.print("The standard deviation is " + (int)(deviation * 1E5) / 1E5);
         
-        
-        
     }
     
 }

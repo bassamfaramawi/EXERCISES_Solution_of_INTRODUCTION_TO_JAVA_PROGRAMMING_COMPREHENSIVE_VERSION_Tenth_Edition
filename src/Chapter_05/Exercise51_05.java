@@ -25,7 +25,7 @@ public class Exercise51_05 {
         
         String s2 = input.nextLine();
         
-        String s = "";
+        String s;
         
         String longestCommonPrefix = "";  // Initialize the longest common prefix
         

@@ -25,8 +25,6 @@ public class Exercise46_05 {
         for(int i = string.length(); i > 0; i--)
             System.out.print(string.charAt(i-1));
         
-        
-        
     }
     
 }

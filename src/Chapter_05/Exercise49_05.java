@@ -36,7 +36,6 @@ public class Exercise49_05 {
         // Display the result
         System.out.println("The number of vowels is" + numberOfVowels);
         System.out.print("The number of consonants is" + numberOfConsonants);
-            
         
     }
     

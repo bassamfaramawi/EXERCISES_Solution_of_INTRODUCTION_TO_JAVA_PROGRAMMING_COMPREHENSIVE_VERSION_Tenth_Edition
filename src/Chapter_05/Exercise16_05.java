@@ -15,7 +15,7 @@ public class Exercise16_05 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);  //Create Scanner object
-        //Prompt the user to enter an integer
+        // Prompt the user to enter an integer
         System.out.print("Enter an integer: ");
         
         int number = input.nextInt();

@@ -13,7 +13,7 @@ import java.util.Scanner;  // Import Scanner classimport java.lang.Math;
  *
  * @author Administrator
  */
-public class Exercise06_04 {
+public class Exercise04_06 {
 
     /**
      * @param args the command line arguments

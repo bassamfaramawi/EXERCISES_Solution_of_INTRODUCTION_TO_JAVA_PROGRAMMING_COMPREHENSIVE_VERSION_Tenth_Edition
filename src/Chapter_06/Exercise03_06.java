@@ -10,8 +10,7 @@ user to enter an integer and reports whether the integer is a palindrome.
  */
 package Chapter_06;
 
-import java.util.Scanner;  // Import Scanner class
-import java.lang.Math;  // Import Math functions
+import java.util.Scanner;  // Import Scanner classimport java.lang.Math;
 
 public class Exercise03_06 {
 

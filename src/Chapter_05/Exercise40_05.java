@@ -24,9 +24,9 @@ public class Exercise40_05 {
             else tails++;
         }
         
-        // Display the results
-        System.out.println("When flipping a coin one milion times, the number of :"
-        + "\nHeads = " + heads + "\nTails = " + tails);
+	// Display the results
+	System.out.println("When flipping a coin one milion times, the number of :"
+	+ "\nHeads = " + heads + "\nTails = " + tails);
     }
     
 }
